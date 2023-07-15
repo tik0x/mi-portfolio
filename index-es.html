@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/nav.css">
+	<link rel="stylesheet" href="./css/home.css">
+	<link rel="stylesheet" href="./css/about.css">
+	<link rel="stylesheet" href="./css/projects.css">
+	<link rel="stylesheet" href="./css/skills.css">
+	<link rel="stylesheet" href="./css/contact.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/mediaqueries.css">
+
+	<script src="https://kit.fontawesome.com/b6e6a5ce7f.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<title>Joel Milotich - Frontend Dev</title>
+	<link rel="icon" type="image/x-icon" href="./imagenes/jm-logo3.png">
+</head>
+<body>
+	<header class="header">
+		<nav class="nav h-grid">
+			<div>
+				<a href="#" class="nav__logo">Joel</a>
+			</div>
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav__link" href="#">Inicio</a></li>
+					<li class="nav__item"><a class="nav__link" href="#about">Sobre</a></li>
+					<li class="nav__item"><a class="nav__link" href="#projects">Proyectos</a></li>
+					<li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+					<li class="nav__item"><a class="nav__link" href="#contact">Contacto</a></li>
+					<li class="nav__item"><a class="nav__link nav__link__es" href="./index-es.html">ES</a></li>
+					<li class="nav__item"><a class="nav__link nav__link__en" href="./index-en.html">EN</a></li>
+				</ul>
+			</div>
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="bi bi-list"></i>
+			</div>
+		</nav>
+	</header>
+	<main class="main">
+		<section class="home h-grid" id="home">
+			<div data-aos="fade-down" class="home__data">
+				<h1 class="home__title">
+					Hola,<br>
+					Soy <span class="home__title-color">Joel</span> <br>
+					Frontend Developer Jr
+				</h1>
+				<a href="https://drive.google.com/file/d/1a4q6aGEz2kS4V0YX_Di5UZeaER80QQw-/view?usp=share_link" target="_blank" class="button" data-aos="fade-down">Ver CV</a>
+			</div>
+			<div data-aos="fade-down" class="home__social">
+				<a href="https://www.linkedin.com/in/joel-milotich-660554202/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="https://github.com/tik0x" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=joelmilotich@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+			</div>
+			<div data-aos="fade-down" class="home__img">
+				<img src="./imagenes/leclerc.png" alt="" class="home__img-perfil">
+			</div>
+		</section>
+		<section class="about section" id="about">
+			<h2 data-aos="fade-down" class="section-title">Sobre Mi</h2>
+			<div data-aos="zoom-in" class="about__container h-grid">
+				<div class="about__img">
+					<img src="./imagenes/programador.png">
+				</div>
+				<div data-aos="zoom-in" class="about__content">
+					<h3 class="about__subtitle">Soy Joel Milotich</h2>
+					<p class="about__text"> Soy un apasionado por el desarrollo Frontend. Me considero una persona autodidacta, disciplinada y comprometida. Me gusta aprender mucho por mi cuenta para mejorar mis habilidades y dar lo mejor de mi en cada tarea que me toca realizar. A continuacion veras los proyectos que he realizado, cualquier consulta puede contactarme. </p>
+				</div>
+			</div>
+		</section>
+		<section data-aos="fade-down" class="projects section" id="projects">
+			<h2 class="section-title" data-aos="fade-down">Proyectos</h2>
+			<div class="projects__container h-grid">
+				<div>
+					<a href="">Proyecto 1</a>
+				</div>
+				<div>
+					<a href="">Proyecto 2</a>
+				</div>
+				<div>
+					<a href="">Poryecto 3</a>
+				</div>
+				<div>
+					<a href="">Proyecto 4</a>
+				</div>
+			</div>
+		</section>
+		<section class="skills section" id="skills">
+			<h2 class="section-title" data-aos="fade-down">Skills</h2>
+			<div class="skills__container h-grid">
+				<h3 class="skills-title" data-aos="fade-down">Lenguajes</h3>
+				<div class="skills__names" data-aos="fade-down">
+					<img src="./imagenes/phyton.png" class="skills__icons">
+					<img src="./imagenes/java.png" class="skills__icons">
+					<img src="./imagenes/html-5.png" class="skills__icons">
+					<img src="./imagenes/css-3.png" class="skills__icons">
+					<img src="./imagenes/js.png" class="skills__icons">
+				</div>
+				<h3 class="skills-title" data-aos="fade-down">Frameworks y Librerias</h3>
+				<div class="skills__names" data-aos="fade-down">
+					<img src="./imagenes/react2.png" class="skills__icons">
+					<img src="./imagenes/bootstrap2.png" class="skills__icons">
+					<img src="./imagenes/sass2.png" class="skills__icons">
+				</div>
+			</div>
+		</section>
+		<section class="contact h-grid" id="contact">
+			<h2 class="section-title" data-aos="fade-down">Contacto</h2>
+			<div class="contact__social">
+				<div class="contact__phone" data-aos="fade-down">
+					<i class="fa-solid fa-phone fa-lg icon"></i>
+					<span class="contact__phone-content">+54 9 1122893938</span>
+				</div>
+				<div class="contact__map" data-aos="fade-down">
+					<i class="fa-solid fa-location-dot fa-lg icon"></i>
+					<span class="contact__map-content">San Miguel, Buenos Aires, Argentina</span>
+				</div>
+				<div class="icon-social" data-aos="fade-down">
+					<a href="https://www.linkedin.com/in/joel-milotich-660554202/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+					<a href="https://github.com/tik0x" target="_blank"><i class="fa-brands fa-github"></i></a>
+					<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=joelmilotich@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+				</div>
+			<div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div>
+			<p class="footer__text">Creado por Joel Milotich | 2023 Copyright © All Rights Reserved </p>
+		</div>
+	</footer>
+	<script src="./js/main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>

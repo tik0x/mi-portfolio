@@ -1,0 +1,10 @@
+footer{
+    text-align: center;
+    background-color: var(--second);
+}
+
+.footer__text{
+    padding: 15px;
+    line-height: 35px;
+    color: white;
+}
