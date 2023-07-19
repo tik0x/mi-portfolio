@@ -40,6 +40,8 @@
   }
   .home__img-perfil {
     width: 360px;
+    border-radius: 50%;
+    padding: 15px;
   }
   
   .button {
