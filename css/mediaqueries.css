@@ -1,3 +1,4 @@
+/* header */
 @media screen and (min-width: 768px) {
 
   .h-grid {
@@ -5,7 +6,9 @@
   }
 }
 
+/* body */
 @media screen and (min-width: 768px) {
+
   body {
     margin: 0;
   }
@@ -26,6 +29,7 @@
   }
 }
 
+/* nav */
 @media screen and (min-width: 768px) {
 
   .nav {
@@ -59,48 +63,58 @@
     margin-left: -32px;
   }
 
+}
+
+/* home */
+@media screen and (min-width: 768px) {
+
   .home__text {
     display: flex;
     flex-direction: column;
   }
-
+  
   .home__title {
     font-size: 60px;
   }
-
+  
   .button {
     font-size: 20px;
   }
-
+  
   .home {
     padding: 128px 0 0;      
   }
-
+  
   .home__data {
     align-self: flex-end;
   }
-
+  
   .home__social {
     padding-top: 30px;
     align-self: flex-start;
   }
-
+  
   .home__social i {
     font-size: 40px;
     margin-top: 30px;
     padding-right: 30px;
   }
-
+  
   .home__img {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .home__img-perfil {
     width: 300px;
     border-radius: 50%;
   }
+  
+}
+
+/* about me */
+@media screen and (min-width: 768px) {
 
   .about__img img {
     width: 250px;
@@ -116,17 +130,45 @@
     width: 50%;
     height: 30%;
   }
+
 }
 
-@media screen and (max-width: 768px) {
+/* projects */
+@media screen and (min-width: 768px) {
 
-  .skills__names img {
-    width: 50px;
-    height: 50px;
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding-top: 2rem;
+  }
+  .projects__links {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2rem;
+  }
+  .projects__links img {
+    width: 350px;
+    height: 230px;
+    object-fit: contain;
   }
 
 }
 
+/* skills */
+@media screen and (min-width: 768px) {
+
+  .skills__container {
+    margin-top: 10%;
+  }
+  
+  .skills-title {
+    margin-top: 5%;
+  }
+
+}
+
+
+/* contact */
 @media screen and (min-width: 768px) {
 
   .contact__social {
@@ -143,6 +185,19 @@
   .icon-social {
     padding-bottom: 16px;
   }
+
+}
+
+
+
+/* fix querys */
+@media screen and (max-width: 768px) {
+
+  .skills__names img {
+    width: 50px;
+    height: 50px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -173,24 +228,6 @@
     font-size: 10px;
   }
 
-}
-
-@media screen and (min-width: 768px) {
-  .projects__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    padding-top: 2rem;
-  }
-  .projects__links {
-    width: 350px;
-    height: 350px;
-    margin-bottom: 2rem;
-  }
-  .projects__links img {
-    width: 350px;
-    height: 230px;
-    object-fit: contain;
-  }
 }
 
 
