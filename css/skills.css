@@ -1,5 +1,9 @@
+.skills {
+  height: 90vh;
+}
+
 .skills__container {
-  row-gap: 32px;
+  margin-top: 10%;
   text-align: center;
 }
 

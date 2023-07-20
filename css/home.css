@@ -1,15 +1,23 @@
 .home {
-    position: relative;
-    row-gap: 48px;
-    padding: 32px 0 48px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
   }
   
   .home__data {
     align-self: center
   }
+
+  .home__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   
   .home__title {
-    font-size: 32px;
+    font-size: 45px;
     margin-bottom: 40px;
   }
   .home__title-color {
@@ -21,27 +29,17 @@
   }
   
   .home__social i{
-    width: max-content;
-    margin-bottom: 16px;
     font-size: 32px;
     color: var(--second);
-    padding-right: 40px;
+    padding: 30px 40px 0 0;
   }
   
   .home__social i:hover {
     color: var(--main);
   }
-  
+
   .home__img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 260px;
-  }
-  .home__img-perfil {
-    width: 360px;
-    border-radius: 50%;
-    padding: 15px;
+    display: none;
   }
   
   .button {
